@@ -1,7 +1,7 @@
 I²C хаб (Troyka-модуль)
 =======================
 
-Библиотека для Arduino, позволяющая управлять I²C хабом(http://amperka.ru/product/troyka-i2c-hub).
+Библиотека для Arduino, позволяющая управлять [I²C хабом](http://amperka.ru/product/troyka-i2c-hub).
 
 Установка библиотеки
 ====================
