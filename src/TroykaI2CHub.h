@@ -15,19 +15,19 @@
 #include <Wire.h>
 
 #define DEFAULT_I2C_HUB_ADDRESS 0x70
-#define ENABLE_MASK             0x08
-#define DEFAULT_CHANNEL         0
-#define COUNT_CHANNEL           8
+#define ENABLE_MASK 0x08
+#define DEFAULT_CHANNEL 0
+#define COUNT_CHANNEL 8
 
-class TroykaI2CHub
-{
+class TroykaI2CHub {
 public:
     TroykaI2CHub(uint8_t i2cHubAddr = DEFAULT_I2C_HUB_ADDRESS);
     ~TroykaI2CHub();
     void begin();
     void setBusChannel(uint8_t channel);
+
 private:
     uint8_t _i2cHubAddr;
 };
 
-#endif  // TROYKA_I2C_HUB_H_
+#endif // TROYKA_I2C_HUB_H_
