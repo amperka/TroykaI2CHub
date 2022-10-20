@@ -24,7 +24,7 @@ void TroykaI2CHub::begin() {
 
 void TroykaI2CHub::setBusChannel(uint8_t channel) {
     if (channel >= COUNT_CHANNEL) {
-        return false;
+        return;
     }
 
     Wire.beginTransmission(_i2cHubAddr);
